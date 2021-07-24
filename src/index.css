@@ -72,3 +72,20 @@ a{
   text-decoration: none;
   color: red;
 }
+
+@media screen and (max-width:1024px){
+  .main{
+    border-left:5rem solid red;
+    border-right:5rem solid red;
+  }
+}
+
+
+@media screen and (max-width:640px){
+  .main{
+    border-left:1rem solid red;
+    border-right:1rem solid red;
+  }
+}
+
+
